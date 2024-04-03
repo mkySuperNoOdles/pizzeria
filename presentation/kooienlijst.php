@@ -14,9 +14,9 @@ declare(strict_types=1);
 
 <body>
     <h1>Selecteer een kooinummer</h1>
-    <form action="toonkooi.php" method="get"> <!-- Replace 'process.php' with the file you want to handle the form submission -->
+    <form action="processapp.php" method="get"> <!-- Replace 'process.php' with the file you want to handle the form submission -->
         <label for="kooiNummer">Kooinummer:</label>
-        <select name="id" id="kooiNummer">
+        <select name="kooiId" id="kooiNummer">
             <?php
             foreach ($kooienLijst as $kooi) {
                 echo "<option value=\"{$kooi->getId()}\">{$kooi->getKooiNummer()}</option>";

@@ -1,5 +1,5 @@
 <?php
-//data/DBConfig.php
+//data/DBh.php
 
 declare(strict_types=1);
 

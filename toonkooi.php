@@ -3,14 +3,11 @@
 declare(strict_types=1);
 require_once realpath("vendor/autoload.php");
 
-use business\KooiService;
-use business\SoortService;
+use business\AppService;
 
-$id = intval($_GET['id']);
-$kooiSvc = new KooiService();
-$kooi = $kooiSvc->getKooiOverzicht($id);
-
-$soortSvc = new SoortService();
-$soortLijst = $soortSvc->getSoortenOverzicht();
+$kooiId = intval($_GET['kooiId']);
+$appSvc = new AppService();
+$kooi = $appSvc->getKooiDetail($kooiId);
+$soortLijst = $appSvc->getSoortenOverzicht();
 
 include("presentation/kooioverzicht.php");

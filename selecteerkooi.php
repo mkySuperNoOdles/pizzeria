@@ -2,8 +2,8 @@
 //selecteerkooi.php
 declare(strict_types=1);
 require_once realpath("vendor/autoload.php");
-use business\KooiService;
+use business\AppService;
 
-$kooiSvc = new KooiService();
-$kooienLijst = $kooiSvc->getKooienOverzicht();
+$appSvc = new AppService();
+$kooienLijst = $appSvc->getKooienOverzicht();
 include("presentation/kooienlijst.php");

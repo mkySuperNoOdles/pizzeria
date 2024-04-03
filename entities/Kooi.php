@@ -7,28 +7,32 @@ class Kooi
     // Properties
     private int $id;
     private int $kooiNummer;
+    private array $vogels = [];
 
     // Constructor
-    private function __construct(
-        int $id = -1,
-        int $kooiNummer
-    ) {
-        $this->id = $id;
-        $this->kooiNummer = $kooiNummer;
+    private function __construct(array $properties = [])
+    {
+        // we overlopen deze array en assignen de key en zijn waarde
+        foreach ($properties as $property => $value) {
+            // INDIEN de property in de array gedefinieerd is binnen deze klasse ($this)
+            if (property_exists($this, $property)) {
+                $this->$property = $value;
+            }
+        }
     }
 
-    public static function create(int $id, int $kooiNummer) 
+    public static function create($properties = [])
     {
-        return new Kooi($id, $kooiNummer);
+        return new self($properties);
     }
 
     // Getters and setters
-    public function getId()
+    public function getId(): int
     {
         return $this->id;
     }
 
-    public function getKooiNummer()
+    public function getKooiNummer(): int
     {
         return $this->kooiNummer;
     }
@@ -36,5 +40,15 @@ class Kooi
     public function setKooiNummer($kooiNummer)
     {
         $this->kooiNummer = $kooiNummer;
+    }
+
+    public function getVogels($vogels): array
+    {
+        return $vogels;
+    }
+
+    public function setVogels($vogels)
+    {
+        $this->vogels = $vogels;
     }
 }

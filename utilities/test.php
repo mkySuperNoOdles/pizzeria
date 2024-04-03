@@ -5,8 +5,8 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use config\Constants;
 use data\VogelDAO;
 use data\KooiDAO;
-use business\KooiService;
-use business\SoortService;
+use data\KoppelDAO;
+use business\AppService;
 
 //instantiate Directory constants
 // $constants = new Constants();
@@ -50,8 +50,38 @@ use business\SoortService;
     // echo($kooi->getId());
 // }
 
-$soortSvc = new SoortService();
-$lijst = $soortSvc->getSoortenOverzicht();
-print("<pre>");
+// $soortSvc = new SoortService();
+// $lijst = $soortSvc->getSoortenOverzicht();
+// print("<pre>");
+// print_r($lijst);
+// print("</pre>");
+
+// $soortId=2;
+// $vogelDAO = new VogelDAO();
+// $lijst = $vogelDAO->findVrouwenPerSoort($soortId);
+// print("<pre>");
+// print_r($lijst);
+// print("</pre>");
+
+// $soortId=1;
+// $vogelSvc = new VogelService();
+// // $lijstMan = $vogelSvc->getMannenPerSoort($soortId);
+// $lijstVrouw = $vogelSvc->getVrouwenPerSoort($soortId);
+// // print("Mannen per soortid: <br>");
+// // print("<pre>");
+// // print_r($lijstMan);
+// // print("</pre>");
+// print("Vrouwen per soortid: <br>");
+// print("<pre>");
+// print_r($lijstVrouw);
+// print("</pre>");
+
+// foreach ($lijstMan as $vogel) {
+//     echo($vogel->getId());
+// }
+
+// test create functie 
+$test = new AppService();
+$kooiId = 1;
+$lijst = $test->getVogelsPerKooiId($kooiId);
 print_r($lijst);
-print("</pre>");

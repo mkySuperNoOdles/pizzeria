@@ -7,47 +7,67 @@ namespace entities;
 class Vogel
 {
     // Properties
-    private $id;
-    private $soort;
-    private $geslacht;
-    private $kleur;
-    private $geborenOp;
-    private $afkomst;
-    private $vererving;
-    private $geringdOp;
-    private $ringnummer;
-    private $ringmaat;
-    private $uitgevlogenOp;
-    private $kooiId;
+    private int $id;
+    private int $soortId;
+    private string $geslacht;
+    private string $kleur;
+    private string $geborenOp;
+    private string $afkomst;
+    private string $vererving;
+    private ?string $geringdOp;
+    private ?string $ringnummer;
+    private ?float $ringmaat;
+    private ?string $uitgevlogenOp;
+    private ?int $kooiId;
 
     // Constructor
-    public function __construct(
-        $id = null,
-        $soort = null,
-        $geslacht = null,
-        $kleur = null,
-        $geborenOp = null,
-        $afkomst = null,
-        $vererving = null,
-        $geringdOp = null,
-        $ringnummer = null,
-        $ringmaat = null,
-        $uitgevlogenOp = null,
-        $kooiId = null
-    ) {
-        $this->id = $id;
-        $this->soort = $soort;
-        $this->geslacht = $geslacht;
-        $this->kleur = $kleur;
-        $this->geborenOp = $geborenOp;
-        $this->afkomst = $afkomst;
-        $this->vererving = $vererving;
-        $this->geringdOp = $geringdOp;
-        $this->ringnummer = $ringnummer;
-        $this->ringmaat = $ringmaat;
-        $this->uitgevlogenOp = $uitgevlogenOp;
-        $this->kooiId = $kooiId;
+
+    // lege array properties als parameter in de construct functie
+    // vanwege [] lege array als standaardwaarde kan de constructor dus worden opgeroepen 
+    // zonder argumenten in te vullen. Dan maken we een nieuw (leeg) object
+    private function __construct(array $properties = [])
+    {
+        // we overlopen deze array en assignen de key en zijn waarde
+        foreach ($properties as $property => $value) {
+            // INDIEN de property in de array gedefinieerd is binnen deze klasse ($this)
+            if (property_exists($this, $property)) {
+                $this->$property = $value;
+            }
+        }
     }
+
+    public static function create($properties = [])
+    {
+        return new self($properties);
+    }
+
+    // public function __construct(
+    //     $id = null,
+    //     $soort = null,
+    //     $geslacht = null,
+    //     $kleur = null,
+    //     $geborenOp = null,
+    //     $afkomst = null,
+    //     $vererving = null,
+    //     $geringdOp = null,
+    //     $ringnummer = null,
+    //     $ringmaat = null,
+    //     $uitgevlogenOp = null,
+    //     $kooiId = null
+    // ) {
+    //     $this->id = $id;
+    //     $this->soort = $soort;
+    //     $this->geslacht = $geslacht;
+    //     $this->kleur = $kleur;
+    //     $this->geborenOp = $geborenOp;
+    //     $this->afkomst = $afkomst;
+    //     $this->vererving = $vererving;
+    //     $this->geringdOp = $geringdOp;
+    //     $this->ringnummer = $ringnummer;
+    //     $this->ringmaat = $ringmaat;
+    //     $this->uitgevlogenOp = $uitgevlogenOp;
+    //     $this->kooiId = $kooiId;
+    // }
 
     // Getters and setters
     public function getId()
@@ -55,19 +75,14 @@ class Vogel
         return $this->id;
     }
 
-    public function setId($id)
+    public function getSoortId()
     {
-        $this->id = $id;
+        return $this->soortId;
     }
 
-    public function getSoort()
+    public function setSoortId($soortId)
     {
-        return $this->soort;
-    }
-
-    public function setSoort($soort)
-    {
-        $this->soort = $soort;
+        $this->soortId = $soortId;
     }
 
     public function getGeslacht()

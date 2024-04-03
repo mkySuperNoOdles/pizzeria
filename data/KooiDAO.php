@@ -26,7 +26,12 @@ class KooiDAO extends Dbh
         $stmt = $this->connect()->prepare($sql);
         $stmt->execute(['id' => $id]);
         $rij =  $stmt->fetch();
-        $kooi = Kooi::create((int)$rij['id'], (int)$rij['kooiNummer']);
+        $kooi = Kooi::create(
+            [
+                'id' => (int) $rij['id'],
+                'kooiNummer' => (int) $rij['kooiNummer']
+            ]
+        );
         return $kooi;
     }
 
@@ -36,7 +41,12 @@ class KooiDAO extends Dbh
         $stmt = $this->connect()->query($sql);
         $objectenLijst = array();
         foreach ($stmt as $rij) {
-            $kooi = Kooi::create((int)$rij['id'], (int)$rij['kooiNummer']);
+            $kooi = Kooi::create(
+                [
+                    'id' => (int) $rij['id'],
+                    'kooiNummer' => (int) $rij['kooiNummer']
+                ]
+            );
             array_push($objectenLijst, $kooi);
         }
         $this->disconnect();
