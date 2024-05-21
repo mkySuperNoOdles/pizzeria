@@ -258,3 +258,4 @@ Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\index.php on l
 Error: [2] Undefined variable $gebruikerRolId in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 171
 Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 165
 Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\index.php on line 50
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 165

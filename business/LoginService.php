@@ -162,13 +162,22 @@ class LoginService
 
     public function getGebruikerRolId(): int
     {
-        if ($_SESSION['user'] == null) {
-            $email = "guest@guest.be";
-        } else {
+        // default email for guests
+        $email = "guest@guest.be";
+
+        // check if 'user' session is set and not null
+        if (isset($_SESSION['user']) && $_SESSION['user'] == !null) {
             $email = $_SESSION['user'];
-        };
+        }
+
         $gebruikerDAO = new GebruikerDAO();
-        $gebruikerRolId = $gebruikerDAO->findByEmail($email)->getRolId();
-        return $gebruikerRolId;
+        $gebruiker = $gebruikerDAO->findByEmail($email);
+
+        // Check if a gebruiker object was returned
+        if ($gebruiker !== null) {
+            return $gebruiker->getRolId();
+        } else {
+            echo "user not found";
+        }
     }
 }

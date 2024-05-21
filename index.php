@@ -47,6 +47,11 @@ function checkAccess()
 // admin check
 
 $userService = new UserService();
-$user = $_SESSION['user'];
+if (isset($_SESSION['user'])){
+    $user = $_SESSION['user'];
     $isAdmin = $userService->userIsAdmin($user);
+} else {
+    $user = null;
+}
+
 require 'router.php';
