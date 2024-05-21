@@ -1,0 +1,8 @@
+# Rerouting all trafic to index.php to use as main controller, 
+# firing up requested controllers in the controllers directory.
+
+RewriteEngine On
+RewriteBase /pizzeria/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]

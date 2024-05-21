@@ -1,0 +1,6 @@
+Uncaught exception: data\GebruikerDAO::findByEmail(): Argument #1 ($email) must be of type string, null given, called in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 48 in D:\xampp\htdocs\pizzeria\data\GebruikerDAO.php on line 57
+Uncaught exception: data\GebruikerDAO::findByEmail(): Argument #1 ($email) must be of type string, null given, called in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 48 in D:\xampp\htdocs\pizzeria\data\GebruikerDAO.php on line 57
+Uncaught exception: data\GebruikerDAO::findByEmail(): Argument #1 ($email) must be of type string, array given, called in D:\xampp\htdocs\pizzeria\business\UserService.php on line 35 in D:\xampp\htdocs\pizzeria\data\GebruikerDAO.php on line 57
+Uncaught exception: data\GebruikerDAO::findByEmail(): Argument #1 ($email) must be of type string, array given, called in D:\xampp\htdocs\pizzeria\business\UserService.php on line 35 in D:\xampp\htdocs\pizzeria\data\GebruikerDAO.php on line 57
+Uncaught exception: syntax error, unexpected token "isset", expecting "(" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Uncaught exception: business\LoginService::getGebruikerRolId(): Return value must be of type int, null returned in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 171

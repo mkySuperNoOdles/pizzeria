@@ -1,0 +1,106 @@
+body {
+  background-color: #5fa3b1;
+}
+
+h2 {
+  color: #1f5b43;
+}
+
+body a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+div a {
+  color: #000000;
+  text-decoration: none;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+button, a.button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  /* Includes padding and border in element's width and height */
+}
+
+button {
+  background-color: #5C67F2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+label input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #4a54e1;
+}
+
+a.button {
+  display: inline-block;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: #5C67F2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+a.button:hover {
+  background-color:#4a54e1;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+  /* Adjust the flex value if you want one section wider than the other */
+  padding: 20px;
+  /* Spacing inside each section */
+}
+
+/* Additional styling for visual distinction */
+.left-section {
+  flex: 8;
+  background-color: #d9dad5;
+  /* Light grey background for the shopping cart */
+  border: 1px black solid;
+}
+
+.left-section-content {
+  flex: 8;
+}
+
+.right-section {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  background-color: #b3f9ff;
+  border: 1px black solid;
+}
+
+.userprofilecontainer,
+.cart-container {
+  flex: 1;
+}
+
+.hidden {
+  display: none;
+}

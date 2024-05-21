@@ -1,0 +1,260 @@
+Error: [2] Undefined variable $message in D:\xampp\htdocs\pizzeria\presentation\userprofile.php on line 4
+Error: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\pizzeria\presentation\header.php:1) in D:\xampp\htdocs\pizzeria\controllers\logout.php on line 11
+Error: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\pizzeria\presentation\header.php:1) in D:\xampp\htdocs\pizzeria\controllers\logout.php on line 11
+Error: [2] Undefined array key "REDIRECTURL" in D:\xampp\htdocs\pizzeria\controllers\CartController.php on line 20
+Error: [2] Undefined array key "REDIRECT_URL" in D:\xampp\htdocs\pizzeria\controllers\CartController.php on line 20
+Error: [2] Undefined array key "deliverydetails" in D:\xampp\htdocs\pizzeria\business\BestelService.php on line 139
+Error: [2] Trying to access array offset on value of type null in D:\xampp\htdocs\pizzeria\business\BestelService.php on line 139
+Error: [2] Undefined array key "deliverydetails" in D:\xampp\htdocs\pizzeria\business\BestelService.php on line 140
+Error: [2] Trying to access array offset on value of type null in D:\xampp\htdocs\pizzeria\business\BestelService.php on line 140
+Error: [2] Undefined array key "deliverydetails" in D:\xampp\htdocs\pizzeria\business\BestelService.php on line 141
+Error: [2] Trying to access array offset on value of type null in D:\xampp\htdocs\pizzeria\business\BestelService.php on line 141
+Error: [2] Undefined array key "REDIRECT_URL" in D:\xampp\htdocs\pizzeria\controllers\CartController.php on line 20
+Error: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\pizzeria\presentation\header.php:1) in D:\xampp\htdocs\pizzeria\controllers\logout.php on line 11
+Error: [2] Undefined array key "REDIRECT_URL" in D:\xampp\htdocs\pizzeria\controllers\CartController.php on line 20
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\pizzeria\functions.php:17) in D:\xampp\htdocs\pizzeria\controllers\login.php on line 38
+Error: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\pizzeria\presentation\header.php:1) in D:\xampp\htdocs\pizzeria\controllers\logout.php on line 11
+Error: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\pizzeria\presentation\header.php:1) in D:\xampp\htdocs\pizzeria\controllers\logout.php on line 11
+Error: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\pizzeria\presentation\header.php:1) in D:\xampp\htdocs\pizzeria\controllers\logout.php on line 11
+Error: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\pizzeria\presentation\header.php:1) in D:\xampp\htdocs\pizzeria\controllers\logout.php on line 11
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\pizzeria\functions.php:17) in D:\xampp\htdocs\pizzeria\controllers\login.php on line 38
+Error: [2] Undefined variable $message in D:\xampp\htdocs\pizzeria\presentation\userprofile.php on line 4
+Error: [2] Undefined variable $message in D:\xampp\htdocs\pizzeria\presentation\userprofile.php on line 4
+Error: [2] Undefined variable $message in D:\xampp\htdocs\pizzeria\presentation\userprofile.php on line 4
+Error: [2] Undefined variable $message in D:\xampp\htdocs\pizzeria\presentation\userprofile.php on line 4
+Error: [2] Undefined variable $message in D:\xampp\htdocs\pizzeria\presentation\userprofile.php on line 4
+Error: [2] Undefined variable $message in D:\xampp\htdocs\pizzeria\presentation\userprofile.php on line 4
+Error: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\pizzeria\presentation\header.php:1) in D:\xampp\htdocs\pizzeria\controllers\logout.php on line 11
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\pizzeria\functions.php:17) in D:\xampp\htdocs\pizzeria\controllers\CartController.php on line 21
+Error: [2] Cannot modify header information - headers already sent by (output started at D:\xampp\htdocs\pizzeria\functions.php:17) in D:\xampp\htdocs\pizzeria\controllers\CartController.php on line 21
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 46
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 46
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined variable $message in D:\xampp\htdocs\pizzeria\presentation\userprofile.php on line 4
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 15
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined variable $isAdmin in D:\xampp\htdocs\pizzeria\presentation\header.php on line 19
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined variable $message in D:\xampp\htdocs\pizzeria\presentation\userprofile.php on line 4
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 163
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined variable $formData in D:\xampp\htdocs\pizzeria\controllers\login.php on line 37
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 44
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 50
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 50
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 50
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 50
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 50
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 50
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 51
+Error: [2] Undefined variable $user in D:\xampp\htdocs\pizzeria\index.php on line 52
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\index.php on line 50
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\index.php on line 50
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 162
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\index.php on line 50
+Error: [2] Undefined variable $gebruikerRolId in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 171
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\business\LoginService.php on line 165
+Error: [2] Undefined array key "user" in D:\xampp\htdocs\pizzeria\index.php on line 50

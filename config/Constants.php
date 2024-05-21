@@ -30,5 +30,9 @@ class Constants
         define('UTILITIES_DIR', ROOT_DIR . '/utilities/');
         //Temp folder
         define('TEMP_DIR', ROOT_DIR . '/temp/');
+        //Controllers folder
+        define('CONTR_DIR', ROOT_DIR . '/controllers/');
+        //Logs folder
+        define('LOG_DIR', ROOT_DIR . '/logs/');
     }
 }

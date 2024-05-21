@@ -2,86 +2,87 @@
 // Include the autoloader to load classes automatically
 require_once __DIR__ . '/../vendor/autoload.php';
 
+session_start();
+
 use config\Constants;
-use data\VogelDAO;
-use data\KooiDAO;
-use data\KoppelDAO;
-use business\AppService;
-
-//instantiate Directory constants
-// $constants = new Constants();
-// $constants->setConstants();
-
-// Instantiate the EntitiesGenerator class
-// Call the generateEntities method
-
-// $generator = new utilities\EntitiesGenerator();
-// $generator->generateEntities();
+use data\BestellingPizzaDAO;
+use business\CartService;
+use data\BestellingDAO;
+use entities\Bestelling;
+use entities\Pizza;
+use data\PizzaDAO;
+use entities\BestellingPizza;
+use business\BestelService;
+use data\GemeenteDAO;
+use data\GebruikerDAO;
+use business\LoginService;
+use business\UserService;
 
 
+// ---------------------------------------
+// --     bestelling test               --
+// ---------------------------------------
+// $bestellingDAO = new BestellingDAO();
+// $bestellingPizzaDAO = new BestellingPizzaDAO();
+// $pizzaDAO = new PizzaDAO();
+// $gebruikerId = 2147483647;
 
-// Instantiate the DAOsGenerator class
-// Call the generateDAOs method
+// // Create a new Bestelling object with gebruikerId
+// $bestelling = Bestelling::create([
+//     'gebruikerId' => $gebruikerId
+// ]);
+// $bestellingId = $bestellingDAO->create($bestelling);
+// echo $bestellingId;
 
-// $generator = new utilities\DAOsGenerator();
-// $generator->generateDAOs();
-
-// test create from VogelDAO
-// data array vullen met nodige keys
-// $data = [
-//     // 'soort' => 'Parrot',
-//     'geslacht' => 'Vrouw',
-//     // 'kleur' => 'Green',
-//     // 'geborenOp' => '2023-01-15',
-//     // 'afkomst' => 'Breeder X',
-//     // 'vererving' => 'Genetic',
-//     // 'geringdOp' => '2023-02-01',
-//     // 'ringnummer' => 'ABC123',
-//     // 'ringmaat' => 'Large',
-//     // 'uitgevlogenOp' => '2023-03-20',
-// ];
-// $id = 4;
-// $daoSvc = new VogelDAO();
-// $daoSvc->update($id, $data);
-
-// $dao = new KooiDAO();
-// $kooi = $dao->findById(2);
-// foreach ($kooiLijst as $kooi) {
-    // echo($kooi->getId());
+// //  pizza_bestelling objecten maken
+// $pizzas = [];
+// $pizzaIds = [1,2,3]; // example id's
+// foreach ($pizzaIds as $pizza_id) {
+//     $pizza = $pizzaDAO->findById($pizza_id);
+//     if ($pizza_id) {
+//         $bestellingPizza = BestellingPizza::create([
+//             'pizzaId' => $pizza_id,
+//             'aantal' => 2, // example
+//             'prijs' => $pizza->getPrijs(),
+//             'extra' => "no comment"
+//         ]);
+//         $bestelling->voegPizzaToeAanBestelling($bestellingPizza);
+//         $pizzas[] = $bestellingPizza; // collect for later use
+//     }
 // }
 
-// $soortSvc = new SoortService();
-// $lijst = $soortSvc->getSoortenOverzicht();
-// print("<pre>");
-// print_r($lijst);
-// print("</pre>");
+// // Save the bestelling object to the database and get the inserted ID
+// $bestellingId = $bestellingDAO->create($bestelling);
+// echo "Bestelling ID: " . $bestellingId . "\n";
 
-// $soortId=2;
-// $vogelDAO = new VogelDAO();
-// $lijst = $vogelDAO->findVrouwenPerSoort($soortId);
-// print("<pre>");
-// print_r($lijst);
-// print("</pre>");
-
-// $soortId=1;
-// $vogelSvc = new VogelService();
-// // $lijstMan = $vogelSvc->getMannenPerSoort($soortId);
-// $lijstVrouw = $vogelSvc->getVrouwenPerSoort($soortId);
-// // print("Mannen per soortid: <br>");
-// // print("<pre>");
-// // print_r($lijstMan);
-// // print("</pre>");
-// print("Vrouwen per soortid: <br>");
-// print("<pre>");
-// print_r($lijstVrouw);
-// print("</pre>");
-
-// foreach ($lijstMan as $vogel) {
-//     echo($vogel->getId());
+// // save each bestellingpizza to the database
+// foreach ($pizzas as $bestellingPizza) {
+//     $bestellingPizza->setBestellingId((int) $bestellingId); // set the foreign key
+//     $bestellingPizzaDAO->create($bestellingPizza);
 // }
 
-// test create functie 
-$test = new AppService();
-$kooiId = 1;
-$lijst = $test->getVogelsPerKooiId($kooiId);
-print_r($lijst);
+// if (!empty($pizzas)) {
+//     echo "Prijs van Pizza ID 1 : " . $pizzas[0]->getPrijs();
+// }
+
+
+// ---------------------------------------
+// --     deliverypossible test         --
+// ---------------------------------------
+
+
+// $dao = new GemeenteDAO();
+
+// $gemeente = "Zillebeke";
+// $postcode = 8902;
+
+// if ($dao->canDeliverPizza($gemeente, $postcode) == true) {
+//     echo "Ja";
+// } else {
+//     echo "Nee";
+// };
+
+// $dao = new GebruikerDAO();
+// $gebruiker = $dao->findById(1);
+// print_r($gebruiker);
+

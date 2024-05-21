@@ -6,7 +6,8 @@
             "config\\": "config/",
             "business\\": "business/",
             "presentation\\": "presentation/",
-            "entities\\": "entities/"
+            "entities\\": "entities/",
+            "logs\\": "logs/"
         }
     }
 }
